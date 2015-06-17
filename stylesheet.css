@@ -1,0 +1,33 @@
+body{
+	background-color: #4E9669;
+}
+h2{
+	text-align: center;
+	color: #541A03;
+	text-shadow: 0px 0px 10px #21402C;
+}
+
+form{
+	text-align: center;
+	box-shadow: 0px 0px 20px #21402C;
+	margin: 0 auto;
+	width: 70%;
+	height: 90%;
+	background-color: #82BD98;
+}
+table{
+	margin: 0 auto;
+	top: 20%;
+	color: #541A03;
+	font-family: Arial, Courier, serif;
+}
+td{
+	padding: 7px;
+}
+input{
+	padding: 2px;
+}
+#button{
+	margin-top: 10px;
+	padding: 5px;
+}

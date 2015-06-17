@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Register | Elite</title>
+
+		<meta charset="UTF-8"/>
+
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+
+	<body>
+		<h2>Registeration Form</h2>
+
+		<form action="process_form.php" method="post">
+			<table>
+				<tr> <td> First Name: </td>
+					<td><input type="text" name="first_name" required/></td>
+				</tr>
+				<tr> <td> Last Name: </td>
+					<td><input type="text" name="last_name"/></td>
+				</tr>
+				<tr> <td> Roll Number: </td>
+					<td><input type="number" name="roll_no" required/></td>
+				</tr>
+				<tr> <td> Department: </td>
+					<td><select name="department" required>
+							<option value="ECE">Electronics and Communication Engineering</option>
+							<option value="CSE">Computer Science and Engineering</option>
+							<option value="EEE">Electrical and Electronics Engineering</option>
+							<option value="ICE">Instrumentation and Control Engineering</option>
+							<option value="MECH">Mechanical Engineering</option>
+							<option value="CIVIL">Civil Engineering</option>
+							<option value="PROD">Production Engineering</option>
+							<option value="CHEM">Chemical Engineering</option>
+							<option value="MME">Metallurgy and Materials Engineering</option>
+							<option value="ARCHI">Architecture</option>
+						</select>
+					</td>
+				</tr>
+				<tr> <td> Year Of Graduation: </td>
+					<td><select name="grad_year" required>
+							<option value="2013">2013</option>
+							<option value="2014">2014</option>
+							<option value="2015">2015</option>
+							<option value="2016">2016</option>
+							<option value="2017">2017</option>
+							<option value="2018">2018</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr> <td> Profile Picture: </td>
+					<td><input type="file" name="profile_pic"/></td>
+				</tr>
+				
+				
+				<tr> <td> Desired UserName: </td>
+					<td><input type="text" name="user_name" required/></td>
+				</tr>
+				<tr> <td> Desired Password: </td>
+					<td><input type="password" name="password" required/></td>
+				</tr>
+				<tr> <td> Re-enter Password: </td>
+					<td><input type="password" name="repassword" required/></td>
+				</tr>
+				
+				
+				<tr><td> E-mail Address: </td>
+					<td><input type="email" name="email_id" required/></td>
+				</tr>
+				<tr><td> Age : </td>
+					<td><input type="number" name="age" style="width:5em" required/> years</td>
+				</tr>
+				<tr><td> Gender: </td>
+					<td><input type="radio" name="gender" value="M"/> Male
+						   <input type="radio" name="gender" value="F"/> Female </td>
+				</tr>
+			</table>
+
+			<input type="submit" id="button" value="Register"/>
+
+		</form>
+	</body>
+</html>
